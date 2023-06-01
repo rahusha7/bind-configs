@@ -4,7 +4,7 @@ packages:
   version: "1.0.1"
   sources:
     - name: bind
-      file: bind/bind.tar
+      file: clus-bind/bind.tar
   config-dir:
     - name: bind-configs
-      dir: bind/config
+      dir: clus-bind/config
