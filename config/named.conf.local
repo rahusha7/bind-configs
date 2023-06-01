@@ -1,0 +1,4 @@
+zone "clus.demo" {
+    type master;
+    file "/etc/bind/zones/db.ios-xr.tme";
+};
