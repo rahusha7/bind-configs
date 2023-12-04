@@ -1,5 +1,5 @@
 $TTL    1d ; default expiration time (in seconds) of all RRs without their own TTL value
-@       IN      SOA     ns1.clus.demo. root.clus.demo. (
+@       IN      SOA     ns1.clmel.demo. root.clmel.demo. (
                   3      ; Serial
                   1d     ; Refresh
                   1h     ; Retry
@@ -7,9 +7,9 @@ $TTL    1d ; default expiration time (in seconds) of all RRs without their own T
                   1h )   ; Negative Cache TTL
 
 ; name servers - NS records
-     IN      NS      ns1.clus.demo.
+     IN      NS      ns1.clmel.demo.
 
 ; name servers - A records
-ns1.clus.demo.             IN      A      10.1.1.1
+ns1.clmel.demo.             IN      A      10.1.1.1
 
-service1.clus.demo.        IN      A      10.1.1.34
+service1.clmel.demo.        IN      A      10.1.1.34
