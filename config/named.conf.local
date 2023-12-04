@@ -1,4 +1,4 @@
-zone "clus.demo" {
+zone "clmel.demo" {
     type master;
     file "/etc/bind/zones/db.ios-xr.tme";
 };
