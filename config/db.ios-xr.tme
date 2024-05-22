@@ -10,6 +10,6 @@ $TTL    1d ; default expiration time (in seconds) of all RRs without their own T
      IN      NS      ns1.clmel.demo.
 
 ; name servers - A records
-ns1.clmel.demo.             IN      A      10.1.1.1
+ns1.clus.demo.              IN      A      10.1.1.1
 
-service1.clmel.demo.        IN      A      10.1.1.34
+service1.clus.demo.         IN      A      10.1.1.34
